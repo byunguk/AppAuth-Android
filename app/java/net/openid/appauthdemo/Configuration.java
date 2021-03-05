@@ -222,7 +222,7 @@ public final class Configuration {
 
             mTokenEndpointUri = getRequiredConfigWebUri("token_endpoint_uri");
             mUserInfoEndpointUri = getRequiredConfigWebUri("user_info_endpoint_uri");
-            mEndSessionEndpoint = getRequiredConfigUri("end_session_endpoint");
+            mEndSessionEndpoint = getRequiredConfigUri("end_session_uri");
 
             if (mClientId == null) {
                 mRegistrationEndpointUri = getRequiredConfigWebUri("registration_endpoint_uri");
